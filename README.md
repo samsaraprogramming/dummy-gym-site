@@ -1,2 +1,1 @@
-# dummy-gym-site
-gym website
+TinDog Starting Files

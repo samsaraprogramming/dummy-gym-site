@@ -1,0 +1,318 @@
+h2{
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+
+body{
+  font-family: "Montserrat", sans-serif;
+}
+
+.main-heading{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Title Section Start */
+
+#title{
+  background-color: #7FB77E;
+  color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar-container{
+  padding: 1.5% 15% 0;
+}
+
+.navbar{
+  font-family: "Montserrat", sans-serif;
+  color: #06FF00;
+  /* margin-right: 15%; */
+}
+
+.navbar-brand{
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #06FF00;
+}
+
+
+
+.navbar-nav{
+  font-size:1.25rem;
+  font-weight:400;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  color: #ffff;
+}
+
+.navbar-brand-mobile{
+  display: none;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #06FF00;
+  text-align: center;
+  padding: 2.5%;
+  line-height: 1.25;
+}
+
+.navbar-brand-mobile:link {
+     text-decoration: none;
+}
+
+.navbar-brand-mobile:visited {
+     text-decoration: none;
+}
+
+.navbar-brand-mobile:hover {
+     text-decoration: none;
+     color: #ffff;
+}
+
+.navbar-brand-mobile:active {
+     text-decoration: none;
+}
+
+.navbar-brand-mobile-container{
+  text-align: center;
+}
+
+/* Heading */
+.heading-container{
+  padding: 2% 15% 4%;
+}
+
+.main-heading-container{
+  text-align: left;
+}
+
+@media (max-width:991px){
+
+
+  .main-heading-container{
+    text-align: center;
+  }
+
+  .navbar-brand-mobile{
+    display: block;
+  }
+
+  .navbar-brand{
+    display: none;
+  }
+
+}
+
+.logo-container{
+  text-align: center;
+}
+
+
+/* Heading Image */
+.toxic-logo{
+  width: 285px;
+}
+
+/* Title Section End */
+
+
+/* Moto Section */
+#moto{
+  font-family: "Montserrat", sans-serif;
+  padding: 2% 15% 1%;
+  background-color: #000000;
+}
+
+.moto-heading{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 2.0rem;
+  color: #2192FF;
+}
+
+.moto-box{
+  text-align: center;
+  padding: 0 5%;
+
+}
+
+.moto-description{
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+.moto-icon{
+  color: #9CFF2E;
+  margin-bottom: 1rem;
+}
+
+.moto-icon:hover{
+  color: #FFDE00;
+}
+
+
+
+
+/* Testimonial Text */
+.title-wrap{
+  padding: 21% 0;
+  background-size: cover;
+}
+
+/* Testimonials */
+
+#testimonials{
+  /* padding: 7% 15%; */
+  text-align: center;
+  background-color: #7FB77E;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 100%;
+  height:auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  /* border-radius: 100%; */
+  /* margin: 20px; */
+}
+
+.testimonial-text{
+  font-family: "Ubuntu";
+  font-weight: 400;
+  /* font-size: 1.5rem; */
+  padding-bottom: 1.5%;
+  color: #2192FF;
+}
+
+.carousel-item{
+  /* padding: 2% 0 0; */
+  /* text-align: center; */
+  background-size: cover;
+  background-position: top center;
+}
+
+.overlay{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-container:hover .testimonial-image{
+  opacity: 0.7;
+}
+
+.image-container:hover .overlay{
+  opacity: 1;
+}
+
+.overlay-text{
+  color: #000000;
+  font-size: 16px;
+  padding: 16px 32px;
+  background-color: #06FF00;
+}
+
+#press{
+  background-color: #000000 ;
+  text-align: center;
+  padding: 3% 0 0;
+}
+
+
+.image-container{
+  background-color: #EAEAEA;
+
+}
+
+
+.bottom-container{
+  background-color:#000000;
+  /* padding: 1% 0 0.5%; */
+  text-align: center;
+}
+
+.footer-menu{
+  padding: 0 30%;
+}
+
+.footer-column{
+  padding: 5% 3%;
+}
+
+.footer-link{
+  color: #2192FF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25rem;
+  text-decoration: none;
+
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.copyright-text{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+  text-align: center;
+  background-color: #000000;
+}
+
+.pricing-header{
+  color: #2192FF;
+}
+
+.pricing-subheader{
+  color: #ffffff;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+.card-header{
+  background-color: #6c757d6e;
+}
+
+.month{
+  font-size: 1rem;
+}
+
+
+#location{
+  text-align: center;
+  padding: 3% 0 4%;
+  background-color: #7FB77E;
+
+}
+
+.location-header{
+  padding-bottom: 2%;
+}
