@@ -123,7 +123,7 @@ body{
 }
 
 .sign-up-form-heading{
-  padding: 2.5% 30%;
+  padding: 2.5% 15% 4;
   text-align: center;
   background-color: #000000;
 }
@@ -131,7 +131,7 @@ body{
 .moto-heading{
   color: #2192FF;
   font-family: "Montserrat", sans-serif;
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   font-weight: 900;
   text-align: center;
 }
@@ -141,7 +141,7 @@ body{
 }
 
 .toxic-logo{
-  width: 345px;
+  width: 285px;
 }
 
 
