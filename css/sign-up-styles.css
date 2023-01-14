@@ -98,7 +98,6 @@ body{
 
 .navbar-brand-mobile-container{
   text-align: center;
-  padding: 2% 15% 4%;
 }
 
 
@@ -111,6 +110,10 @@ body{
 
   .navbar-brand{
     display: none;
+  }
+
+  .navbar-brand-mobile-container{
+    padding: 2% 15%;
   }
 
   .navbar-brand-mobile{
@@ -183,7 +186,7 @@ body{
 
 
 .sign-up-form{
-  padding: 5% 30% 10%;
+  padding: 5% 30% 5%;
   background-color: #000000;
 }
 
