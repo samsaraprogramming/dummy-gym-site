@@ -57,8 +57,12 @@ body{
 }
 
 .navbar-nav{
-  font-size:1.25rem;
+  font-size:1rem;
   font-weight:400;
+}
+
+.nav-icon{
+  font-size: 1.5rem;
 }
 
 .nav-item{
@@ -123,12 +127,10 @@ body{
   .navbar-nav{
     text-align: left;
   }
-}
 
-.sign-up-form-heading{
-  padding: 5% 15% 4%;
-  text-align: center;
-  background-color: #000000;
+  .moto-heading{
+    font-size: 3rem;
+  }
 }
 
 .moto-heading{
@@ -137,6 +139,25 @@ body{
   font-size: 3.5rem;
   font-weight: 900;
   text-align: center;
+}
+
+@media (max-width:991px){
+  
+  .moto-heading{
+    font-size: 3rem;
+  }
+}
+
+.sign-up-form-heading{
+  padding: 3% 15% 1%;
+  text-align: center;
+  background-color: #000000;
+}
+
+
+
+.moto-container{
+  padding: 0 10%
 }
 
 .logo-container{
@@ -150,7 +171,7 @@ body{
 
 .bottom-container{
   background-color:#000000;
-  padding: 1% 0 0.5%;
+  /* padding: 1% 0 0.5%; */
   text-align: center;
 }
 
@@ -159,14 +180,13 @@ body{
 }
 
 .footer-column{
-  padding: 5% 0;
+  padding: 5% 3%;
 }
 
 .footer-link{
   color: #2192FF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.25rem;
-  margin: 2% 2%;
+  font-size: 1rem;
   text-decoration: none;
 
 }
