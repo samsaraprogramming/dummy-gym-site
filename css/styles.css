@@ -49,8 +49,12 @@ body{
 
 
 .navbar-nav{
-  font-size:1.25rem;
+  font-size:1rem;
   font-weight:400;
+}
+
+.nav-icon{
+  font-size: 1.5rem;
 }
 
 .nav-item{
@@ -263,7 +267,7 @@ body{
 .footer-link{
   color: #2192FF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-decoration: none;
 
 }
