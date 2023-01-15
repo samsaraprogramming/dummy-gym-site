@@ -1,14 +1,25 @@
 h2{
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: 900;
   line-height: 1.5;
 }
 
 h3{
+  ont-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
 }
 
+hr{
+  border-width: 0.15rem;
+  /* width: 100%; */
+  color: #000000;
+  padding: 0 18px;
+  opacity: 1;
+  display: block;
+  margin-right: 10%;
+}
 
 body{
   font-family: "Montserrat", sans-serif;
@@ -21,14 +32,13 @@ body{
   font-weight: 900;
 }
 
-/* Title Section Start */
+
+/* Navigation Bar */
 
 #title{
   background-color: #7FB77E;
   color: #fff;
 }
-
-/* Navigation Bar */
 
 .navbar-container{
   padding: 0.5% 15%;
@@ -46,8 +56,6 @@ body{
   font-weight: 900;
   color: #06FF00;
 }
-
-
 
 .navbar-nav{
   font-size:1rem;
@@ -99,159 +107,68 @@ body{
 
 .navbar-brand-mobile-container{
   text-align: center;
+  padding: 2% 0;
 }
 
-/* Heading */
-.heading-container{
-  padding: 2% 15% 4%;
-}
 
-.main-heading-container{
-  text-align: left;
-}
 
 @media (max-width:991px){
-
-
-  .main-heading-container{
-    text-align: center;
-  }
-
-  .navbar-brand-mobile{
-    display: block;
+  .navbar-toggler{
+    text-align: left;
+    display:inline-block;
   }
 
   .navbar-brand{
     display: none;
   }
 
-}
+  .navbar-brand-mobile-container{
+    padding: 1% 15% 3%;
+  }
 
-.logo-container{
-  text-align: center;
-}
+  .navbar-brand-mobile{
+    display: block;
+  }
 
+  .navbar-nav{
+    text-align: left;
+  }
 
-/* Heading Image */
-.toxic-logo{
-  width: 285px;
-}
-
-/* Title Section End */
-
-
-/* Moto Section */
-#moto{
-  font-family: "Montserrat", sans-serif;
-  padding: 2% 15% 1%;
-  background-color: #000000;
+  .moto-heading{
+    font-size: 3rem;
+  }
 }
 
 .moto-heading{
+  color: #2192FF;
   font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
   font-weight: 900;
-  font-size: 2.0rem;
-  color: #2192FF;
-}
-
-.moto-box{
-  text-align: center;
-  padding: 0 5%;
-
-}
-
-.moto-description{
-  color: #ffffff;
-  line-height: 1.5;
-}
-
-.moto-icon{
-  color: #9CFF2E;
-  margin-bottom: 1rem;
-}
-
-.moto-icon:hover{
-  color: #FFDE00;
-}
-
-
-
-
-/* Testimonial Text */
-.title-wrap{
-  padding: 21% 0;
-  background-size: cover;
-}
-
-/* Testimonials */
-
-#testimonials{
-  /* padding: 7% 15%; */
-  text-align: center;
-  background-color: #7FB77E;
-  color: #fff;
-}
-
-.testimonial-image{
-  width: 100%;
-  height:auto;
-  transition: .5s ease;
-  backface-visibility: hidden;
-  /* border-radius: 100%; */
-  /* margin: 20px; */
-}
-
-.testimonial-text{
-  font-family: "Ubuntu";
-  font-weight: 400;
-  /* font-size: 1.5rem; */
-  padding-bottom: 1.5%;
-  color: #2192FF;
-}
-
-.carousel-item{
-  /* padding: 2% 0 0; */
-  /* text-align: center; */
-  background-size: cover;
-  background-position: top center;
-}
-
-.overlay{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
 
-.image-container:hover .testimonial-image{
-  opacity: 0.7;
+@media (max-width:991px){
+
+  .moto-heading{
+    font-size: 3rem;
+  }
 }
 
-.image-container:hover .overlay{
-  opacity: 1;
-}
-
-.overlay-text{
-  color: #000000;
-  font-size: 16px;
-  padding: 16px 32px;
-  background-color: #06FF00;
-}
-
-#press{
-  background-color: #000000 ;
+.sign-up-form-heading{
+  padding: 3% 15% 1%;
   text-align: center;
-  padding: 3% 0 0;
+  background-color: #000000;
 }
 
 
-.image-container{
-  background-color: #EAEAEA;
 
+.moto-container{
+  padding: 0 10%
+}
+
+
+.toxic-logo{
+  width: 285px;
 }
 
 
@@ -288,36 +205,21 @@ body{
   margin: 0;
 }
 
-/* Pricing Section */
-#pricing{
-  padding: 100px;
-  text-align: center;
+/* Sign-Up Section */
+
+
+
+.sign-up-form{
+  padding: 5% 30% 5%;
   background-color: #000000;
 }
 
-.pricing-header{
-  color: #2192FF;
-}
-
-.pricing-subheader{
+.form-label{
   color: #ffffff;
 }
 
-.pricing-col{
-  padding: 3% 2%;
-}
-
-.card-header{
-  background-color: #6c757d6e;
-}
-
-.month{
-  font-size: 1rem;
-}
-
-
 #location{
-  text-align: center;
+  text-align: left;
   padding: 3% 0 4%;
   background-color: #7FB77E;
 
