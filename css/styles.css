@@ -31,7 +31,8 @@ body{
 /* Navigation Bar */
 
 .navbar-container{
-  padding: 1.5% 15% 0;
+  padding: 0.5% 15%;
+  background-color: #19811a;
 }
 
 .navbar{
@@ -63,6 +64,10 @@ body{
 
 .nav-link{
   color: #ffff;
+}
+
+.navbar-toggler{
+  background-color: #000000;
 }
 
 .navbar-brand-mobile{
