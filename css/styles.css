@@ -103,7 +103,7 @@ body{
 
 /* Heading */
 .heading-container{
-  padding: 2% 15% 4%;
+  padding: 150px 15% 40px;
 }
 
 .main-heading-container{
@@ -115,6 +115,10 @@ body{
 
   .main-heading-container{
     text-align: center;
+  }
+  
+  .heading-container{
+    padding: 80px 3% 40px;
   }
 
   .navbar-brand-mobile{
