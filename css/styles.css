@@ -33,6 +33,8 @@ body{
 .navbar-container{
   padding: 0.5% 15%;
   background-color: #19811a;
+  position: fixed;
+  z-index: 20;
 }
 
 .navbar{
