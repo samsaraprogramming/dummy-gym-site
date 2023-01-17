@@ -52,7 +52,9 @@ body{
   color: #06FF00;
 }
 
-
+.toxic-logo-nav{
+  width: 80px;
+}
 
 .navbar-nav{
   font-size:1rem;
@@ -109,6 +111,8 @@ body{
 /* Heading */
 .heading-container{
   padding: 150px 15% 40px;
+  background-image: url('/Users/rod/Documents/Web Development/Toxic Fitness Site/images/barbell-texture.avif');
+  box-shadow: inset 0 0 0 1000px rgba(55,146,55, 0.35);
 }
 
 .main-heading-container{
@@ -117,6 +121,13 @@ body{
 
 @media (max-width:991px){
 
+  .navbar{
+    justify-content: left;
+  }
+
+  .navbar-brand{
+    font-size: 1rem;
+  }
 
   .main-heading-container{
     text-align: center;
@@ -130,8 +141,13 @@ body{
     display: block;
   }
 
-  .navbar-brand{
+  .brand-text{
     display: none;
+  }
+
+  .toxic-logo-nav{
+    width: 60px;
+    padding-left: 20px;
   }
 
 }
