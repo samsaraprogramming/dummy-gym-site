@@ -38,7 +38,8 @@ body{
 /* Navigation Bar */
 
 #title{
-  background-color: #379237;
+  background-image: url('../images/toxix fitness texture_4.png');
+  background-size: cover;
   color: #fff;
 }
 
