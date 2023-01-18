@@ -111,8 +111,7 @@ body{
 /* Heading */
 .heading-container{
   padding: 150px 15% 40px;
-  background-image: url('../images/barbell-texture.avif');
-  box-shadow: inset 0 0 0 1000px rgba(55,146,55, 0.35);
+  background-image: url('../images/toxix fitness texture_1.png');
 }
 
 .main-heading-container{
@@ -338,7 +337,8 @@ body{
 #location{
   text-align: center;
   padding: 3% 0 4%;
-  background-color: #379237;
+  background-image: url('../images/toxix fitness texture_1.png');
+  background-size: cover;
 
 }
 
