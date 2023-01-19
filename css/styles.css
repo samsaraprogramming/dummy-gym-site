@@ -125,7 +125,7 @@ body{
   }
 
   .navbar-brand-mobile{
-    top: 10px;
+    top: 12px;
     position:absolute;
     display: inline;
     font-size: 1rem;
@@ -348,4 +348,12 @@ body{
 
 .location-header{
   padding-bottom: 2%;
+}
+
+.test-class{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
 }
