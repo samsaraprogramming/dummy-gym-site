@@ -127,8 +127,8 @@ body{
 
   .navbar-brand-mobile{
     left: 50%;
-    transform: translateX(-50%);
-    top: 10px;
+    top: 50%;
+    transform: translate(-50%,-50%);
     position:absolute;
     display: inline;
     font-size: 1rem;
@@ -154,7 +154,7 @@ body{
 
   .toxic-logo-nav{
     width: 15%;
-    padding-left: 1%;
+    margin: 0 0 5% 1%;
   }
 
 }
