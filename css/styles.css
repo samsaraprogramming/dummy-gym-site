@@ -85,7 +85,6 @@ body{
   font-weight: 900;
   color: #06FF00;
   text-align: center;
-  padding: 2.5%;
   line-height: 1.25;
 }
 
@@ -127,12 +126,11 @@ body{
 
   .navbar-brand-mobile{
     left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translateX(-50%);
+    top: 20px;
     position:absolute;
     display: inline;
     font-size: 1rem;
-    z-index: 21;
   }
 
   .navbar-brand{
@@ -145,16 +143,16 @@ body{
   }
 
   .heading-container{
-    padding: 80px 3.5% 40px;
+    padding: 80px 3% 40px;
   }
 
   .brand-text{
-    font-size: 4.5vw;
+    font-size: 5vw;
   }
 
   .toxic-logo-nav{
     width: 15%;
-    margin: 0 0 5% 1%;
+    margin: 0 0 5% 0.5%;
   }
 
 }
