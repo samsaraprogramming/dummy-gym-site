@@ -129,6 +129,10 @@ body{
     left: 50%;
     transform: translateX(-50%);
     top: 10px;
+    position:absolute;
+    display: inline;
+    font-size: 1rem;
+    z-index: 21;
   }
 
   .navbar-brand{
@@ -142,12 +146,6 @@ body{
 
   .heading-container{
     padding: 80px 3.5% 40px;
-  }
-
-  .navbar-brand-mobile{
-    position:absolute;
-    display: inline;
-    font-size: 1rem;
   }
 
   .brand-text{
