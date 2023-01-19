@@ -14,6 +14,7 @@ body{
   font-family: "Montserrat", sans-serif;
   background-color: #7FB77E;
   overflow-x: hidden;
+
 }
 
 .main-heading{
@@ -34,13 +35,14 @@ body{
 /* Navigation Bar */
 
 .navbar-container{
-  padding: 0.5% 15%;
   background-color: #141414;
   position: fixed;
   z-index: 20;
+  padding: 0;
 }
 
 .navbar{
+  padding: 0.5% 15%;
   font-family: "Montserrat", sans-serif;
   color: #06FF00;
   /* margin-right: 15%; */
@@ -104,13 +106,9 @@ body{
      text-decoration: none;
 }
 
-.navbar-brand-mobile-container{
-  text-align: center;
-}
-
 /* Heading */
 .heading-container{
-  padding: 150px 15% 40px;
+  padding: 150px 16% 40px;
   background-image: url('../images/toxix fitness texture_1.png');
 }
 
@@ -120,12 +118,22 @@ body{
 
 @media (max-width:991px){
 
+
+
   .navbar{
     justify-content: left;
+    padding: 4% 2%;
+  }
+
+  .navbar-brand-mobile{
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10px;
   }
 
   .navbar-brand{
     font-size: 1rem;
+    display: none;
   }
 
   .main-heading-container{
@@ -133,20 +141,22 @@ body{
   }
 
   .heading-container{
-    padding: 80px 3% 40px;
+    padding: 80px 3.5% 40px;
   }
 
   .navbar-brand-mobile{
-    display: block;
+    position:absolute;
+    display: inline;
+    font-size: 1rem;
   }
 
   .brand-text{
-    display: none;
+    font-size: 4vw;
   }
 
   .toxic-logo-nav{
-    width: 60px;
-    padding-left: 20px;
+    width: 15%;
+    padding-left: 1%;
   }
 
 }
@@ -240,13 +250,13 @@ body{
   background-position: top center;
 }
 
-.image-container{
+/* .image-container{
   transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .image-container:hover{
   transform: matrix(1.2, 0, 0, 1.2, 0, 0);
-}
+} */
 
 .image-container:hover .testimonial-image{
   opacity: 0.7;
@@ -338,8 +348,8 @@ body{
   text-align: center;
   padding: 3% 0 4%;
   background-image: url('../images/toxix fitness texture_1.png');
-  background-size: cover;
   color: #ffff;
+  background-size: cover;
 }
 
 .location-header{
