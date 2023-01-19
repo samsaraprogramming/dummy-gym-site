@@ -42,9 +42,6 @@ body{
   color: #06FF00;
 }
 
-.nav-toggler{
-  z-index:23;
-}
 
 .toxic-logo-nav{
   width: 80px;
@@ -69,6 +66,7 @@ body{
 
 .navbar-toggler{
   background-color: #000000;
+  z-index: 23;
 }
 
 .navbar-brand-mobile{
@@ -78,6 +76,7 @@ body{
   color: #06FF00;
   text-align: center;
   line-height: 1.25;
+  z-index: 21;
 }
 
 .navbar-brand-mobile:link {
