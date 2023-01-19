@@ -86,6 +86,7 @@ body{
   color: #06FF00;
   text-align: center;
   line-height: 1.25;
+  z-index:22;
 }
 
 .navbar-brand-mobile:link {
