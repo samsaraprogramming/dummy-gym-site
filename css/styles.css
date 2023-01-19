@@ -1,15 +1,3 @@
-h2{
-  font-size: 2.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h3{
-  font-size: 1.5rem;
-  font-weight: 400;
-}
-
-
 body{
   font-family: "Montserrat", sans-serif;
   background-color: #7FB77E;
@@ -54,6 +42,10 @@ body{
   color: #06FF00;
 }
 
+.nav-toggler{
+  z-index:23;
+}
+
 .toxic-logo-nav{
   width: 80px;
 }
@@ -86,7 +78,6 @@ body{
   color: #06FF00;
   text-align: center;
   line-height: 1.25;
-  z-index:22;
 }
 
 .navbar-brand-mobile:link {
@@ -351,10 +342,3 @@ body{
   padding-bottom: 2%;
 }
 
-.test-class{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-
-}
