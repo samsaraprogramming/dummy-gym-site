@@ -3,7 +3,7 @@ body{
   font-family: "Montserrat", sans-serif;
   background-color: #7FB77E;
   overflow-x: hidden;
-  width: fit-content;
+  width: 100%;
 }
 
 .main-heading{
