@@ -283,10 +283,6 @@ body{
 
 }
 
-.footer-link:hover{
-  color: #EAF6F6;
-}
-
 .copyright-text{
   color: #EAF6F6;
   font-size: 0.75rem;
@@ -347,4 +343,8 @@ body{
   .image-container:hover .testimonial-image{
     opacity: 0.7;
   }
+  
+  .footer-link:hover{
+  color: #EAF6F6;
+}
 }
