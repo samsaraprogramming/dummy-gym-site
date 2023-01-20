@@ -98,7 +98,7 @@ html{
   .signup-form-heading-container{
     text-align: center;
     padding: 160px 5% 40px;
-    background-image: url('/Users/rod/Documents/Web Development/Toxic Fitness Site/images/toxix fitness texture_4.png');
+    background-image: url('../images/toxix fitness texture_4.png');
     background-size: cover;
   }
 
@@ -248,7 +248,7 @@ html{
 
   #location{
     text-align: left;
-    padding: 3% 0 4%;
+    padding: 3% 0 8%;
     background-color: #7FB77E;
 
   }
