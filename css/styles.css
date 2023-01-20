@@ -1,8 +1,9 @@
+
 body{
   font-family: "Montserrat", sans-serif;
   background-color: #7FB77E;
   overflow-x: hidden;
-
+  width: fit-content;
 }
 
 .main-heading{
@@ -42,6 +43,9 @@ body{
   color: #06FF00;
 }
 
+.nav-toggler{
+  z-index:23;
+}
 
 .toxic-logo-nav{
   width: 80px;
@@ -66,7 +70,6 @@ body{
 
 .navbar-toggler{
   background-color: #000000;
-  z-index: 22;
 }
 
 .navbar-brand-mobile{
@@ -76,7 +79,6 @@ body{
   color: #06FF00;
   text-align: center;
   line-height: 1.25;
-  z-index: 21;
 }
 
 .navbar-brand-mobile:link {
@@ -87,10 +89,6 @@ body{
      text-decoration: none;
 }
 
-.navbar-brand-mobile:hover {
-     text-decoration: none;
-     color: #ffff;
-}
 
 .navbar-brand-mobile:active {
      text-decoration: none;
@@ -189,9 +187,6 @@ body{
   margin-bottom: 1rem;
 }
 
-.moto-icon:hover{
-  color: #FFDE00;
-}
 
 
 
@@ -243,9 +238,7 @@ body{
   transform: matrix(1.2, 0, 0, 1.2, 0, 0);
 } */
 
-.image-container:hover .testimonial-image{
-  opacity: 0.7;
-}
+
 
 
 .overlay-text{
@@ -341,3 +334,17 @@ body{
   padding-bottom: 2%;
 }
 
+@media(hover : hover){
+  .navbar-brand-mobile:hover {
+       text-decoration: none;
+       color: #ffff;
+  }
+
+  .moto-icon:hover{
+    color: #FFDE00;
+  }
+
+  .image-container:hover .testimonial-image{
+    opacity: 0.7;
+  }
+}
