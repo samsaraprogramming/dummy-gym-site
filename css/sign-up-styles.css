@@ -132,7 +132,7 @@ html{
     }
 
     .brand-text{
-      display: 6vw;
+      font-size: 6vw;
     }
 
     .signup-form-heading-container{
