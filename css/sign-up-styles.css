@@ -107,7 +107,7 @@ html{
   @media (max-width:991px){
     .navbar{
       justify-content: left;
-      padding: 4% 2%;
+      padding: 2%;
     }
     
     .toxic-logo-nav{
@@ -135,7 +135,7 @@ html{
     }
 
     .signup-form-heading-container{
-      padding: 12.5% 3% 7.5%;
+      padding: 20% 3% 7.5%;
     }
 
 
@@ -156,12 +156,12 @@ html{
   @media (max-width:991px){
 
     .moto-heading{
-      font-size: 3rem;
+      font-size: 10vw;
     }
   }
 
   .sign-up-form-heading{
-    padding: 3% 15% 1%;
+    padding: 5% 15% 1%;
     text-align: center;
     background-color: #000000;
   }
@@ -169,24 +169,20 @@ html{
 
 
 
-  .moto-container{
-    padding: 0 1%
-  }
-
 
   .toxic-logo{
-    width: 350px;
+    width: 50%;
   }
 
   .mayhem-container{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 7.5%;
   }
 
   .mayhem-logo{
-    width: 350px;
-    padding: 7.5% 0;
+    width: 50%;
   }
 
   @media(max-width:991px){
@@ -217,7 +213,7 @@ html{
   .footer-link{
     color: #2192FF;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
+    font-size: 0.75rem;
     text-decoration: none;
 
   }
