@@ -185,15 +185,6 @@ html{
     width: 50%;
   }
 
-  @media(max-width:991px){
-    .toxic-logo{
-      width: 300px;
-    }
-
-    .mayhem-logo{
-      width: 300px;
-    }
-  }
 
 
   .bottom-container{
