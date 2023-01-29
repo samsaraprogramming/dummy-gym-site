@@ -1,3 +1,6 @@
+html{
+  overflow-x: hidden;
+}
 
 body{
   font-family: "Montserrat", sans-serif;
@@ -34,7 +37,6 @@ body{
   padding: 0.5% 15%;
   font-family: "Montserrat", sans-serif;
   color: #06FF00;
-  /* margin-right: 15%; */
 }
 
 .navbar-brand{
@@ -52,7 +54,7 @@ body{
 }
 
 .navbar-nav{
-  font-size:1rem;
+  font-size:0.85rem;
   font-weight:400;
 }
 
@@ -133,7 +135,7 @@ body{
 
   .brand-text{
     font-size: 6vw;
-    
+
   }
 
   .toxic-logo-nav{
@@ -262,7 +264,7 @@ body{
 
 .bottom-container{
   background-color:#000000;
-  /* padding: 1% 0 0.5%; */
+   padding-top: 2%;
   text-align: center;
 }
 
@@ -277,10 +279,22 @@ body{
 .footer-link{
   color: #2192FF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
+  font-size: 0.85rem;
   text-decoration: none;
 
 }
+
+@media (max-width:991px){
+  .footer-link span{
+    display: none;
+  }
+
+  .footer-menu{
+    padding: 0 35%;
+  }
+}
+
+
 
 .copyright-text{
   color: #EAF6F6;
@@ -313,7 +327,7 @@ body{
 }
 
 .month{
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 
@@ -329,6 +343,10 @@ body{
   padding-bottom: 2%;
 }
 
+iframe{
+  width: 85%;
+}
+
 @media(hover : hover){
   .navbar-brand-mobile:hover {
        text-decoration: none;
@@ -342,8 +360,8 @@ body{
   .image-container:hover .testimonial-image{
     opacity: 0.7;
   }
-  
+
   .footer-link:hover{
-  color: #EAF6F6;
-}
+    color: #EAF6F6;
+  }
 }
