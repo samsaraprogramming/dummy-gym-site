@@ -347,21 +347,4 @@ iframe{
   width: 85%;
 }
 
-@media(hover : hover){
-  .navbar-brand-mobile:hover {
-       text-decoration: none;
-       color: #ffff;
-  }
 
-  .moto-icon:hover{
-    color: #FFDE00;
-  }
-
-  .image-container:hover .testimonial-image{
-    opacity: 0.7;
-  }
-
-  .footer-link:hover{
-    color: #EAF6F6;
-  }
-}
