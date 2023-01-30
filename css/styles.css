@@ -292,6 +292,10 @@ body{
   .footer-menu{
     padding: 0 35%;
   }
+  
+  .navbar-nav{
+    padding-top: 2.5%;
+  }
 }
 
 
