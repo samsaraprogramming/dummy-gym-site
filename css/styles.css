@@ -96,6 +96,11 @@ body{
      text-decoration: none;
 }
 
+.navbar-brand-mobile:hover {
+    text-decoration: none;
+    color: #ffff;
+ }
+
 /* Heading */
 .heading-container{
   padding: 150px 16% 40px;
