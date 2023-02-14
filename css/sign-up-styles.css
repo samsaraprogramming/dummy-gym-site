@@ -58,7 +58,7 @@ html{
   }
 
   .nav-item{
-    padding: 0 18px;
+    padding: 0 12px;
   }
 
   .nav-link{
@@ -95,6 +95,12 @@ html{
        text-decoration: none;
   }
 
+.navbar-brand-mobile:hover {
+    text-decoration: none;
+    color: #ffff;
+ }
+
+
   .signup-form-heading-container{
     text-align: center;
     padding: 160px 5% 40px;
@@ -109,14 +115,24 @@ html{
     text-align: center;
   }
 
+  @media (max-width:1280px){
+    .nav-link-text{
+      display: none;
+    }
+  }
+
   @media (max-width:991px){
+    .nav-link-text{
+      display: inline;
+    }
+    
     .navbar{
       justify-content: left;
       padding: 2%;
     }
 
     .toxic-logo-nav{
-      width: 10%;
+      width: 15%;
       margin-left: 2%;
     }
 
